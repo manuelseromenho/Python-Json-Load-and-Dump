@@ -14,6 +14,7 @@ with open('source_file_2.json') as json_file:
             watchers.append(watcher)
 
     managers = list(set(managers))
+    watchers = list(set(watchers))
 
             
     for manager in managers:
